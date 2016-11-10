@@ -285,17 +285,24 @@ header#contacts{
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
+/* Aqui agregamos más ".sub_header.bg" para pones distintos fondos.*/
 .sub_header.bg_1 {
-  background-image: url(../img/header_bg_1.jpg);
+  background-image: url(../img/carreras.jpg);
 }
 .sub_header.bg_2 {
   background-image: url(../img/header_bg_2.jpg);
 }
 .sub_header.bg_3 {
-  background-image: url(../img/header_bg_3.jpg);
+  background-image: url(../img/calendario.jpg);
 }
 .sub_header.bg_4 {
   background-image: url(../img/header_bg_4.jpg);
+}
+.sub_header.bg_5 {
+  background-image: url(../img/header_bg_5.jpg);
+}
+.sub_header.bg_8 {
+  background-image: url(../img/galeria.jpg);
 }
 .sub_header_contact_home{
    background-image: url(../img/header_bg_1.jpg);
