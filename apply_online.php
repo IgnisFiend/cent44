@@ -62,10 +62,14 @@ function delayedRedirect(){
 </head>
 <body onLoad="setTimeout('delayedRedirect()', 10000)">
 <?php
+
+echo "Sitio en construcción";
+/*
+
 						$mail = $_POST['email_apply'];
 
 						/*$subject = "".$_POST['subject'];*/
-						$to = "your@email.com";
+	/*					$to = "your@email.com";
 						$subject = "Apply from ATENA";
 						$headers = "From: ATENA web site <noreply@yourdomain.com>";
 						
@@ -100,17 +104,17 @@ function delayedRedirect(){
 						$userheaders = "From: info@atena.com\n";
 						/*$usermessage = "Thank you for your time. Your request is successfully submitted.\n"; WITH OUT SUMMARY*/
 						//Confirmation page WITH  SUMMARY
-						$usermessage = "Thank you for your time. Your request is successfully submitted.\n\nSUMMARY\n$message"; 
+						/*$usermessage = "Thank you for your time. Your request is successfully submitted.\n\nSUMMARY\n$message"; 
 						mail($user,$usersubject,$usermessage,$userheaders);
-	
+	*/
 ?>
 
 <!-- END SEND MAIL SCRIPT -->   
 <div id="mask">
 <div class="mask_content">
- <p class="text-center" style="font-size:80px;"><i class="icon_check_alt2"></i></p>
-  <h4 style="color:#FFC">Thank you!<br>Your request has been sent.</h4>
- <p>You will be redirect back in 10 seconds.</p>
+ <p class="text-center" style="font-size:80px;"><i class=" icon_error-triangle_alt"></i></p>
+  <h4 style="color:#FFC">Error 404<br>La página se encuentra en construcción</h4>
+ <p>Será direccionado en 10 segundos al inicio.</p>
 </div>
 </div>
 </body>
