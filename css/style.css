@@ -285,7 +285,7 @@ header#contacts{
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
-/* Aqui agregamos más ".sub_header.bg" para pones distintos fondos.*/
+/* Aqui agregamos más ".sub_header.bg" para poner distintos fondos.*/
 .sub_header.bg_1 {
   background-image: url(../img/carreras.jpg);
 }
@@ -303,6 +303,9 @@ header#contacts{
 }
 .sub_header.bg_8 {
   background-image: url(../img/galeria.jpg);
+}
+.sub_header.bg_9 {
+  background-image: url(../img/fondo-admin.jpg);
 }
 .sub_header_contact_home{
    background-image: url(../img/header_bg_1.jpg);
